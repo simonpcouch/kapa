@@ -24,8 +24,9 @@ You can install the development version of kapa like so:
 pak::pak("simonpcouch/kapa")
 ```
 
-Once the package is installed, you will need a kapa.ai API key. Set this
-to the `KAPA_API_KEY` environment variable.
+Once the package is installed, you will need a [kapa.ai API
+key](https://docs.kapa.ai/api/quickstart#create-an-api-key). Set this to
+the `KAPA_API_KEY` environment variable.
 
 ## Example
 
@@ -52,8 +53,8 @@ tidy_search
 #>     kapa_search(query = query, project_id = project_id, num_results = num_results, 
 #>         include_source_names = include_source_names)
 #> }
-#> <bytecode: 0x110e4f540>
-#> <environment: 0x110e51f50>
+#> <bytecode: 0x1158eb970>
+#> <environment: 0x1158ea668>
 ```
 
 I can add this tool to any ellmer chat object to allow the chat to
@@ -107,5 +108,5 @@ ggplot(diamonds, aes(x = carat)) +
 ```
 
 To start an MCP server with this tool, use
-\[\]`mcptools::mcp_server()`\](<https://posit-dev.github.io/mcptools/>)
-with `tools = list(<your_tool>)`.
+[`mcptools::mcp_server()`](https://posit-dev.github.io/mcptools/) with
+`tools = list(<your_tool>)`.

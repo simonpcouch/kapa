@@ -30,7 +30,7 @@ You can install the development version of kapa like so:
 pak::pak("simonpcouch/kapa")
 ```
 
-Once the package is installed, you will need a kapa.ai API key. Set this to the `KAPA_API_KEY` environment variable.
+Once the package is installed, you will need a [kapa.ai API key](https://docs.kapa.ai/api/quickstart#create-an-api-key). Set this to the `KAPA_API_KEY` environment variable.
 
 ## Example
 
@@ -91,4 +91,4 @@ ggplot(diamonds, aes(x = carat)) +
 #> instead of `scale_x_reverse()` to maintain the reverse scaling.
 ```
 
-To start an MCP server with this tool, use []`mcptools::mcp_server()`](https://posit-dev.github.io/mcptools/) with `tools = list(<your_tool>)`.
+To start an MCP server with this tool, use [`mcptools::mcp_server()`](https://posit-dev.github.io/mcptools/) with `tools = list(<your_tool>)`.
