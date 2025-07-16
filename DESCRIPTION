@@ -1,0 +1,20 @@
+Package: kapa
+Title: Search 'kapa.ai' Projects
+Version: 0.0.0.9000
+Authors@R: 
+    person("Simon", "Couch", , "simon.couch@posit.co", role = c("aut", "cre"))
+Description: Search 'kapa.ai' projects using MCP.
+License: MIT + file LICENSE
+Imports:
+    cli,
+    ellmer (>= 0.2.1.9000),
+    httr2 (>= 1.2.0),
+    rlang
+Suggests: 
+    testthat (>= 3.0.0)
+Remotes:
+    tidyverse/ellmer
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
